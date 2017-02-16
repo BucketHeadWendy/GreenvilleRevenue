@@ -1,6 +1,9 @@
 ﻿//Program written by Dan Plummer and Derek West
-//1.20.17
+//1/.20.17
 //CIS 2620 | Chapter 2 | Case Study #1
+
+//2/15/17
+//CIS 2620 | Chapter 4 | Case Study #1
 
 using System;
 using static System.Console;
