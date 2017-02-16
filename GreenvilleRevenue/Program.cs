@@ -30,8 +30,11 @@ class GreenvilleRevenue
         else
             if (thisYearNum > lastYearNum)
             WriteLine("The competition is bigger than ever!");
-       // WriteLine("There were {0} contestants last year, and {1} contestants this year.", lastYearNum, thisYearNum);
-        WriteLine("To say that there were more contestants this year than last would be {0}", moreThisYear);
+        else
+            if (thisYearNum < lastYearNum)
+            WriteLine("A tighter race this year! Come out and cast your vote.");
+        // WriteLine("There were {0} contestants last year, and {1} contestants this year.", lastYearNum, thisYearNum);
+        // WriteLine("To say that there were more contestants this year than last would be {0}", moreThisYear);
         WriteLine();
         WriteLine("Expected revenue for this year's competition is: ${0}", revenue.ToString("F2"));
     }
